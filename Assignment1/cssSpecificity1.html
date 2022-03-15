@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Specificity</title>
+  <style>
+    div{
+      color: chocolate;
+    }
+    #id1{
+      color: darkslateblue;
+    }
+    .class1{
+      color: red;
+      color: palevioletred;
+    }
+    .class3{
+      color: black;
+    }
+    p.class4{
+      background-color: lightblue;
+    }
+    p#id2{
+       color: antiquewhite;
+    }
+    *{
+      background-color: lightseagreen;
+    }
+    /* *{
+      background-color: lightseagreen;
+    } "* = use to apply background color for complete page" */
+  </style>
+</head>
+<body>
+  <h1>Css Specificity</h1>
+  <div class="class2 class1 class3" id="id1">
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+  </div>
+  <div>
+      <h2>Css Specificity 2</h2>
+      <p class="class4">
+        On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment
+      </p>
+  </div>
+</body>
+</html>
