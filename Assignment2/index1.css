@@ -1,0 +1,30 @@
+.card {
+  height: 516px;
+  width: 257px;
+  border: 1px;
+  border-style: double;
+  border-radius: 3px;
+  text-align: center;
+}
+img {
+  width: 80%;
+  padding: 40px 5px 10px 5px;
+  /* text-align: center; */
+  margin: 10px;
+}
+img:hover {
+  height: 50%;
+  width: 83%;
+}
+.description:hover,
+img:hover {
+  cursor: pointer;
+  color: golden;
+}
+.price {
+  text-align: left;
+  margin-left: 4px;
+}
+a.hover {
+  color: red;
+}
