@@ -1,0 +1,18 @@
+p::before,
+p::after {
+  content: "HELLO";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  z-index: -1;
+  transition: all 0.4s;
+}
+p:hover::before {
+  transform: translate(-5px, -5px);
+  text-shadow: 4px 4px 20px #ff0101;
+}
+p:hover::after {
+  transform: translate(5px, 5px);
+  text-shadow: 4px, 4px, 20px, #351fff;
+}
